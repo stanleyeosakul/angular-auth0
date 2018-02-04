@@ -1,0 +1,29 @@
+<section class="section">
+  <div class="container top">
+    <h1 class="title has-text-centered">Logged in as {{ profile.nickname | titlecase }}</h1>
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img class="circle" src="{{ profile.picture }}" alt="Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="field is-grouped is-grouped-multiline">
+            <div class="control">
+              <strong>{{ profile.name }}</strong>
+            </div>
+            <div class="control">
+              <div class="tags has-addons">
+                <span class="tag is-dark">Last Logged In</span>
+                <span class="tag is-link">{{ profile.updated_at | date:'short' }}</span>
+              </div>
+            </div>
+          </div>
+          <p class="content has-text-justified">Lorem ipsum dolor amet dreamcatcher affogato taiyaki ethical. Tousled raclette mixtape, cardigan gentrify jianbing crucifix
+          biodiesel edison bulb fixie readymade. Distillery intelligentsia occupy bushwick mumblecore leggings. Butcher iPhone sriracha next level put a bird on it small batch ramps four dollar toast ennui sustainable leggings keffiyeh tumblr actually. Four loko slow-carb flexitarian letterpress, microdosing shabby chic scenester pop-up vinyl etsy single-origin coffee banjo before they sold out.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
