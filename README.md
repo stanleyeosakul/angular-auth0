@@ -25,7 +25,7 @@ This project demonstrates the use of **Auth0's Lock v11** with an embedded login
 
           export const AUTH_CONFIG: Auth0 = {
             clientID: '<your-client-id-goes-here>',
-            domain: '<your-client-domain-goes-here>',
+            domain: '<your-domain-goes-here>',
             callbackURL: 'http://localhost:4200/loading'
           };
         ```
